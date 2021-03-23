@@ -3,9 +3,9 @@ package com.mpicosque.dsclient.repositories;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.mpicosque.dsclient.entities.Category;
+import com.mpicosque.dsclient.entities.Client;
 
 @Repository
-public interface CategoryRepository extends JpaRepository<Category, Long> {
+public interface ClientRepository extends JpaRepository<Client, Long> {
 	
 }
