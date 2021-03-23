@@ -1,4 +1,4 @@
-package com.mpicosque.dsclient.resources;
+package com.mpicosque.dscatalog.resources;
 
 import java.net.URI;
 
@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.mpicosque.dsclient.dto.ProductDTO;
-import com.mpicosque.dsclient.services.ProductService;
+import com.mpicosque.dscatalog.dto.ProductDTO;
+import com.mpicosque.dscatalog.services.ProductService;
 
 @RestController
 @RequestMapping(value = "/products")

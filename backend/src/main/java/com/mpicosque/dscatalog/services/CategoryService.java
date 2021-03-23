@@ -1,4 +1,4 @@
-package com.mpicosque.dsclient.services;
+package com.mpicosque.dscatalog.services;
 
 import java.util.Optional;
 
@@ -12,11 +12,11 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.mpicosque.dsclient.dto.CategoryDTO;
-import com.mpicosque.dsclient.entities.Category;
-import com.mpicosque.dsclient.repositories.CategoryRepository;
-import com.mpicosque.dsclient.services.exceptions.DatabaseException;
-import com.mpicosque.dsclient.services.exceptions.ResourceNotFoundException;
+import com.mpicosque.dscatalog.dto.CategoryDTO;
+import com.mpicosque.dscatalog.entities.Category;
+import com.mpicosque.dscatalog.repositories.CategoryRepository;
+import com.mpicosque.dscatalog.services.exceptions.DatabaseException;
+import com.mpicosque.dscatalog.services.exceptions.ResourceNotFoundException;
 
 @Service
 public class CategoryService {

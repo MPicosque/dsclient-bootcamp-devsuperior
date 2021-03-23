@@ -1,8 +1,8 @@
-package com.mpicosque.dsclient.dto;
+package com.mpicosque.dscatalog.dto;
 
 import java.io.Serializable;
 
-import com.mpicosque.dsclient.entities.Category;
+import com.mpicosque.dscatalog.entities.Category;
 
 public class CategoryDTO implements Serializable {
 	private static final long serialVersionUID = 1L;

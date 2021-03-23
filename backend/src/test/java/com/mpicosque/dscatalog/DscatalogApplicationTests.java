@@ -1,10 +1,10 @@
-package com.mpicosque.dsclient;
+package com.mpicosque.dscatalog;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DsclientApplicationTests {
+class DscatalogApplicationTests {
 
 	@Test
 	void contextLoads() {

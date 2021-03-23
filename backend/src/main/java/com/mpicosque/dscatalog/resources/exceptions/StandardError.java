@@ -1,4 +1,4 @@
-package com.mpicosque.dsclient.resources.exceptions;
+package com.mpicosque.dscatalog.resources.exceptions;
 
 import java.io.Serializable;
 import java.time.Instant;

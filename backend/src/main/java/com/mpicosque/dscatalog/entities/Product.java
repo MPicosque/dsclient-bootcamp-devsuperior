@@ -1,4 +1,4 @@
-package com.mpicosque.dsclient.entities;
+package com.mpicosque.dscatalog.entities;
 
 import java.io.Serializable;
 import java.time.Instant;
