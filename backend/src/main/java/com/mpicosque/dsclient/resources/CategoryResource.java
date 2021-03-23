@@ -1,4 +1,4 @@
-package com.mpicosque.dscatalog.resources;
+package com.mpicosque.dsclient.resources;
 
 import java.net.URI;
 
@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.mpicosque.dscatalog.dto.CategoryDTO;
-import com.mpicosque.dscatalog.services.CategoryService;
+import com.mpicosque.dsclient.dto.CategoryDTO;
+import com.mpicosque.dsclient.services.CategoryService;
 
 @RestController
 @RequestMapping(value = "/categories")

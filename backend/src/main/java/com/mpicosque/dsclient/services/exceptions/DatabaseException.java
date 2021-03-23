@@ -1,4 +1,4 @@
-package com.mpicosque.dscatalog.services.exceptions;
+package com.mpicosque.dsclient.services.exceptions;
 
 public class DatabaseException extends RuntimeException {
 	private static final long serialVersionUID = 1L;

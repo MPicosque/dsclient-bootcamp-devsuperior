@@ -1,9 +1,9 @@
-package com.mpicosque.dscatalog.repositories;
+package com.mpicosque.dsclient.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.mpicosque.dscatalog.entities.Category;
+import com.mpicosque.dsclient.entities.Category;
 
 @Repository
 public interface CategoryRepository extends JpaRepository<Category, Long> {

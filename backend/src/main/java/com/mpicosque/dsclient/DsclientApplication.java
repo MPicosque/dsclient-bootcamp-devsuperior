@@ -1,13 +1,13 @@
-package com.mpicosque.dscatalog;
+package com.mpicosque.dsclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DscatalogApplication {
+public class DsclientApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DscatalogApplication.class, args);
+		SpringApplication.run(DsclientApplication.class, args);
 	}
 
 }

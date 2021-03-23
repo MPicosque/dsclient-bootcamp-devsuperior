@@ -1,4 +1,4 @@
-package com.mpicosque.dscatalog.resources.exceptions;
+package com.mpicosque.dsclient.resources.exceptions;
 
 import java.time.Instant;
 
@@ -9,8 +9,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.mpicosque.dscatalog.services.exceptions.DatabaseException;
-import com.mpicosque.dscatalog.services.exceptions.ResourceNotFoundException;
+import com.mpicosque.dsclient.services.exceptions.DatabaseException;
+import com.mpicosque.dsclient.services.exceptions.ResourceNotFoundException;
 
 @ControllerAdvice
 public class ResourceExceptionHandler {
